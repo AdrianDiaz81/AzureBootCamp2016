@@ -1,0 +1,26 @@
+﻿@using System.Collections.Generic
+@using System.Threading.Tasks
+@model System.Collections.Generic.IEnumerable<CompartiMoss.BootCamp.Web.Models.Partner>
+<div id="divHomePartners">
+    <div class="sln-layout-main groupmarker">
+        <ul class="dfwp-list">
+            @foreach (var partner in Model)
+            {
+                <li>
+                    <div class="divCompartiMOSSPartner">
+                        <div class="divPicture">
+                            <a href="@partner.Url">
+                                <img class="image" src="@partner.Image" title="">
+                            </a>
+                        </div>
+                        <div class="divOverlay" style="top: 140px;">
+                            <a class="linkOverlay" href="@partner.Url">
+                                <h2 class="ms-noWrap">@partner.Name</h2>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+﻿@using System.Collections.Generic
+@using System.Threading.Tasks
+@model System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<Articulos>>
+
+<section id="divArticles">
+    <header>
+        <h2>
+            Índice
+        </h2>
+    </header>
+    <ul class="cbs-List">
+        @foreach (var articulo in Model.Result)
+        {
+            <li>
+                <div class="divCompartiMOSSArticleListItem" data-displaytemplate="Item2Lines">
+                    <div class="cbs-Detail">
+                        <a href="" title="@articulo.Titulo" >@articulo.Titulo</a> <a class="linkMagazine" href="" title="@articulo.Titulo"> en @articulo.NumeroRevista </a>
+                    </div>
+                </div>
+            </li>
+        }
+    </ul>
+</section>

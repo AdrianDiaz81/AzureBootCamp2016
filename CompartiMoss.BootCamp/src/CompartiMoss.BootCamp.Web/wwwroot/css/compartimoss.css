@@ -1,0 +1,1122 @@
+﻿body {
+    font-family: Calibri, Cambria, Verdana;
+    color: #363636;
+    margin: 0;
+}
+
+a img {
+    border: none;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 40px;
+    font-weight: 200;
+    font-family: 'Segoe UI';
+    color: #303030;
+}
+
+h2 {
+    margin: 8px 0;
+    font-size: 32px;
+    font-weight: 200;
+    font-family: 'Segoe UI';
+    color: #303030;
+}
+
+h3 {
+    margin: 5px 0;
+    font-size: 25px;
+    font-weight: 200;
+    font-family: 'Segoe UI';
+    color: #303030;
+}
+
+h4 {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 200;
+    font-family: 'Segoe UI';
+    color: #303030;
+}
+
+#s4-workspace
+{
+    padding-bottom: 0;
+}
+
+
+#s4-bodyContainer
+{
+    padding-bottom: 0;
+}
+
+#divMain {
+      background: #dfdfdf url('../Images/Layout/BgBody.png') center -150px;
+}
+
+/*********************************************************************************************************************************
+***** HEADER
+*********************************************************************************************************************************/
+#divHeader {
+    height: 200px;
+    background: #303030;
+    padding: 0 20px;
+}
+
+#divHeader #divLogo {
+    float: left;
+    background-image: url('../images/Layout/Logo380x109.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 400px;
+    height: 100%;
+}
+
+#divHeader #divHeaderContent {
+    margin-left: 400px;
+    min-width: 540px;
+    text-align: right;
+}
+
+    /*********************************************************************************************************************************
+    ***** MENU
+    *********************************************************************************************************************************/
+#divHeader nav {
+    display: inline-block;
+    margin: 20px 0;
+    height: 80px;
+    vertical-align: top;
+}
+
+#divHeader nav ul {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    list-style: none;
+    text-align: right;
+}
+
+#divHeader nav#MainMenu ul li {
+    display: inline-block;
+    margin: 0 2px;
+    vertical-align: top;
+    width: 130px;
+    background: #f8922c;
+    font-size: 27px;
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    text-align: right;
+}
+
+#divHeader nav#MainMenu ul li.selected {
+    background-color: #f90b39;
+}
+
+#divHeader nav#MainMenu ul li:hover {
+    background-color: #f90b39;
+}
+
+#divHeader nav#MainMenu ul li a {
+    display: table-cell;
+    margin: 0;
+    padding: 5px 10px;
+    width: 110px;
+    height: 90px;
+    text-decoration: none;
+    color: #fff;
+    overflow: hidden;
+    vertical-align: bottom;
+    text-align: right;
+}
+
+#divHeader nav#MainMenu ul li .home {background: url('../Images/Icons/Menu-Home.png') no-repeat 10px 10px;}
+#divHeader nav#MainMenu ul li .revista {background: url('../Images/Icons/Menu-Magazines.png') no-repeat 10px 10px;}
+#divHeader nav#MainMenu ul li .autor {background: url('../Images/Icons/Menu-Autors.png') no-repeat 10px 10px;}
+
+
+#divHeader nav#MainMenu ul li a span {
+    vertical-align: baseline;
+    text-align: right;
+    overflow: hidden;
+}
+
+
+#divHeader nav#MainMenu ul li a:hover {
+}
+
+    /*********************************************************************************************************************************
+    ***** SEARCH
+    *********************************************************************************************************************************/
+#divHeader #divHeaderContent #divSearch {
+    background: #303030;
+}
+
+#divHeader #divHeaderContent #divSearch div[data-name="SearchBox"] {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #fff;
+}
+
+#divHeader #divHeaderContent #divSearch div[data-name="SearchBox"] {
+}
+
+#divHeader #divHeaderContent #divSearch input {
+    width: 365px;
+    height: 24px;
+    font-size: 18px;
+    padding: 2px 5px;
+    color: #808080;
+    background: #fff;
+    margin: 0;
+}
+
+#divHeader #divHeaderContent #divSearch a {
+    vertical-align: middle;
+    margin:  4px;
+}
+
+#divHeader #divHeaderContent #divSearch img {
+    vertical-align: middle;
+}
+
+
+/*********************************************************************************************************************************
+***** BODY
+*********************************************************************************************************************************/
+#divBody {
+    padding: 20px;
+    font-size: 15px;
+    font-family: Calibri;
+    height:640px;
+}
+
+
+    /*********************************************************************************************************************************
+    ***** NUMBER
+    *********************************************************************************************************************************/
+#divBody #SectionNumber {
+}
+
+#divBody #SectionNumber header h1 {
+    margin-top: 0;
+}
+
+#divBody #SectionNumber header h1 a {
+    color: #303030;
+    text-decoration: none;
+}
+
+#divBody #SectionNumber header h1 a:hover {
+    color: #f90b39;
+}
+
+#divBody #SectionNumber header h1 img {
+    color: #f90b39;
+    vertical-align: text-bottom;
+}
+
+#divBody #SectionNumber header h1 img:hover {
+}
+
+#divBody #SectionNumber #divLastNumberInfo {
+    width: 100%;
+    display: table;
+    margin-top: 20px;
+}
+
+#divBody #SectionNumber #divLastNumberInfo #divLastNumberImg {
+    display: table-cell;
+    padding-right: 20px;
+    height: 502px;
+    max-width: 382px;
+}
+
+#divBody #SectionNumber #divLastNumberInfo #divLastNumberImg img {
+    height: 500px;
+    vertical-align: middle;
+    border: 1px solid #dedede !important;
+    box-shadow: 0px 5px 10px #303030;
+}
+
+#divBody #SectionNumber #divLastNumberInfo #articleNumberContent {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: left;
+}
+
+#divBody #SectionNumber #divLastNumberInfo #articleNumberContent #divIndex {
+
+}
+
+#divBody #SectionNumber #divLastNumberInfo #articleNumberContent #divIndex .ms-webpartzone-cell {
+    margin-bottom: 0px;
+}
+
+#divBody #SectionNumber #divLastNumberInfo #articleNumberContent #divIndex ul {
+    list-style: none;
+    width: 100%;
+    margin: 5px auto;
+    padding: 0 10px;
+}
+
+#divBody #SectionNumber #divLastNumberInfo #articleNumberContent #divIndex ul:not(.dfwp-list) li {
+    background: url('../Images/Icons/ListItemBullet.png') no-repeat 0px 0px;
+    margin: 10px 0;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+#divBody #SectionNumber #divLastNumberInfo #articleNumberContent #divIndex ul li .cbs-Detail {
+    margin: 0;
+}
+
+#divBody #SectionNumber #divLastNumberInfo #articleNumberContent #divIndex li {
+	display:block;
+	padding-top:0;
+}
+
+.divCompartiMOSSArticleListItem {
+	margin-top:0 !important;
+}
+
+#divBody #SectionNumber #divEditorial {
+    margin: 20px 0;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+#divBody #SectionNumber #divEditorial p {
+    margin: 10px 20px;
+}
+
+#divBody #SectionNumber #divIndex header h2, #divBody #SectionNumber #divEditorial header h2 {
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 0 10px;
+    font-size: 27px;
+    color: #f90b39;
+}
+
+
+    /*********************************************************************************************************************************
+    ***** ARTICLE
+    *********************************************************************************************************************************/
+#divBody #SectionArticle {
+}
+
+#divBody #SectionArticle header #divMagazineNumber {
+    display: inline-block;
+    position: absolute;
+    float: inside;
+    top: 180px;
+    left: 0;
+    -webkit-transition: top 0.5s ease-in-out;
+    -moz-transition: top 0.5s ease-in-out;
+    -o-transition: top 0.5s ease-in-out;
+    transition: top 0.5s ease-in-out;
+
+    background: url('../Images/Layout/Back-Magazine-Number.png') no-repeat left;
+}
+
+#divBody #SectionArticle header #divMagazineNumber a {
+    display: block;
+    padding: 6px 6px 6px 12px;
+    color: #fff;
+    text-decoration: none;
+    font-size:  20px;
+}
+
+#divBody #SectionArticle header h1 {
+    margin-top: 0;
+}
+
+#divBody #SectionArticle header #divShare {
+    margin-bottom: 20px;
+}
+
+#divBody #SectionArticle header #divShare > iframe,
+#divBody #SectionArticle header #divShare > div {
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#divBody #SectionArticle #divArticleInfo {
+    margin-bottom: 10px;
+    line-height: 21px;
+}
+
+#divBody #SectionArticle #divArticleInfo #divArticleAuthor {
+    color: #f90b39;
+    text-decoration: none;
+}
+
+#divBody #SectionArticle #divArticleInfo #divArticleAuthor a:visited {
+	color: #f90b39;
+    text-decoration: none;
+}
+
+#divBody #SectionArticle #divArticleInfo #divArticleDate {
+    color: #808080;
+    font-style: italic;
+}
+
+#divBody #SectionArticle #divArticleTags {
+    color: #fff;
+}
+
+#divBody #SectionArticle #divArticleTags > span {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px;
+    padding-left: 25px;
+    background: #f8922c url('../Images/Icons/Tag.png') no-repeat 5px center;
+    color: #fff;
+}
+
+    /*********************************************************************************************************************************
+    ***** AUTHOR
+    *********************************************************************************************************************************/
+#divBody #SectionAuthor {
+}
+
+#divBody #SectionAuthor header h1 {
+    margin-top: 0;
+    color: #f90b39;
+}
+
+#divBody #SectionAuthor #divAuthorAside {
+    float: left;
+    width: 250px;
+}
+
+#divBody #SectionAuthor #divAuthorAside img {
+    width: 250px;
+    height:  250px;
+    box-shadow: 0px 5px 10px #303030;
+}
+
+#divBody #SectionAuthor #divAuthorAside #divSocialInfo {
+    margin-top: 10px;
+}
+
+#divBody #SectionAuthor #divAuthorAside #divSocialInfo > article {
+    position: relative;
+    margin: 5px 0;
+    height: 80px;
+    width: 250px;
+    background: #303030 no-repeat 15px center;
+    color: #fff;
+    text-align: right;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+
+#divBody #SectionAuthor #divAuthorAside #divSocialInfo > article a {
+    display: block;
+    padding-top: 50px;
+    padding-right: 10px;
+    height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#divBody #SectionAuthor #divAuthorAside #divSocialInfo > article .divSocialOverlay {
+    position: absolute;
+    top: 70px;
+    width: 250px;
+    z-index: 20;
+    background-color: #f90b39;
+    /*ROJO*/background-color: rgba(249, 11, 57, 0.8);
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#divBody #SectionAuthor #divAuthorAside #divSocialInfo > article .divSocialOverlay a {
+    height: 50px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+
+#divBody #SectionAuthor #divAuthorAside #divSocialInfo #divTwitter {
+    background-image: url('../Images/Icons/Twitter-Bird-48.png');
+}
+
+#divBody #SectionAuthor #divAuthorAside #divSocialInfo #divBlog {
+    background-image: url('../Images/Icons/Blog-48.png');
+}
+
+#divBody #SectionAuthor > article > header, 
+#divBody #SectionAuthor #divAuthorData {
+    margin-left: 270px;
+}
+
+#divBody #SectionAuthor > article > header
+{
+    padding-bottom: 15px;
+}
+
+#divBody #SectionAuthor > article > header #divJobTitle
+{
+    font-style: italic;
+    font-weight: 700;
+}
+
+#divBody #SectionAuthor #divAuthorData #divBio
+{
+    padding-bottom: 20px;
+}
+
+#divBody #SectionAuthor #divAuthorData #divArticles {
+}
+
+#divBody #SectionAuthor .divCompartiMOSSArticleListItem {
+	display: block;
+}
+
+#divBody #SectionAuthor #divArticles {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+#divBody #SectionAuthor #divArticles .ms-webpartzone-cell {
+    margin-bottom: 0px;
+}
+
+#divBody #SectionAuthor #divArticles ul {
+    list-style: none;
+    width: 100%;
+    margin: 5px auto;
+    padding: 0 10px;
+}
+
+#divBody #SectionAuthor #divArticles ul:not(.dfwp-list) li {
+    background: url('../Images/Icons/ListItemBullet.png') no-repeat 0px 0px;
+    margin: 10px 0;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+#divBody #SectionAuthor #divArticles ul li .cbs-Detail {
+    margin: 0;
+}
+
+#SectionAuthor #divArticles li {
+	display:block;
+	padding-top:0;
+}
+
+#SectionAuthor #divArticles h2 {
+	color: #f90b39;	
+}
+
+
+/*********************************************************************************************************************************
+***** FOOTER
+*********************************************************************************************************************************/
+footer
+{
+    padding: 10px 0px;
+    border-top: 1px solid #676767;
+    color:  #676767;
+    font-weight: 200;
+    width: 100%;
+    background-color: #dfdfdf;
+    background-color: rgba(223, 223, 223, 0.85);
+    text-align: center;
+    height:120px;
+}
+
+footer #FooterAds {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer #FooterAds a {
+    display: inline-block;
+    margin: 5px 20px;
+    vertical-align: top;
+    max-height: 48px;
+}
+
+footer #FooterAds img {
+    max-height: 48px;
+}
+
+footer #FooterPowered {
+	vertical-align: top;
+	display: inline-block;    
+	margin-left: 20px;
+    margin-right: 20px;
+    text-align: right;
+    font-size: 1.3em;
+    float:right;
+}
+
+footer #imgSPPowered
+{
+    height: 40px;
+    vertical-align: middle;
+}
+
+footer #spanGSCPowered a
+{
+    color: #ff6a00;
+}
+
+footer #spanGSCPowered a:hover
+{
+    text-decoration: none;
+    color: #f90b39;
+}
+
+footer #FooterSocial img {
+	height: 32px;
+}
+
+footer #FooterSocial {
+	display: inline-block;
+	float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 1.3em;
+}
+
+footer #FooterSocial a:hover { 
+	text-decoration:none;
+}
+
+/*********************************************************************************************************************************
+***** HOME
+*********************************************************************************************************************************/
+#articleHome > header 
+{
+    margin-bottom: 30px;
+}
+
+#articleHome header h1,
+#articleHome header h4
+{
+    margin: 0;
+    color: #fff;
+}
+
+#divHomeImage, #divHomePartners
+{
+    /*display: inline-block;*/
+    vertical-align: top;
+}
+
+#divHomeImage
+{
+    float: left;
+    position: relative;
+    width: 380px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 0px 5px 10px #303030;
+}
+
+#divHomeImage #divOverlay
+{
+    position: absolute;
+    top: 400px;
+    height: 100px;
+    width: 380px;
+    background-color: #f90b39;
+    /*ROJO*/background-color: rgba(249, 11, 57, 0.8);
+    color: #fff;
+}
+
+#divHomeImage #divOverlay h1 {
+    color: #fff;
+}
+
+#divHomePartners {
+    margin-left: 390px;
+    padding-left: 20px;
+}
+
+#divHomeImage img
+{
+    width: 380px;
+}
+
+
+#divHomePartners .dfwp-list
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+#divHomePartners .dfwp-column 
+{
+    margin: 0;
+}
+
+#divHomePartners .dfwp-list > li
+{
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+    padding: 0;
+    vertical-align: top;
+}
+
+
+#divHomePartners .dfwp-list li .item
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*********************************************************************************************************************************
+***** CompartiMOSS - Partner
+*********************************************************************************************************************************/
+.divCompartiMOSSPartner
+{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    background: #303030;
+}
+
+.divCompartiMOSSPartner .divPicture
+{
+    /*position: absolute;*/
+    z-index: 10;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 150px;
+}
+
+.divCompartiMOSSPartner .divPicture a {
+    display: inline-block;
+    height: 150px;
+    width: 250px;
+}
+
+.divCompartiMOSSPartner .divPicture img {
+    /*width: 200px;*/
+    max-width: 230px;
+    /*height: 120px;*/
+    max-height: 130px;
+    vertical-align: middle;
+}
+
+.divCompartiMOSSPartner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.divCompartiMOSSPartner .divOverlay 
+{
+    position: absolute;
+    z-index: 20;
+    top: 140px;
+    left: 0;
+    height: 150px;
+    width: 250px;
+    /*IE8<=*/background-color: #f90b39;
+    background-color: rgba(249, 11, 57, 0.85);
+    color: #fff;
+    font-size: 11px;    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.divCompartiMOSSPartner .divOverlay a.linkOverlay
+{
+    display: block;
+    height: 140px;
+    padding: 5px 10px;
+}
+
+.divCompartiMOSSPartner .divOverlay a.linkOverlay ,
+.divCompartiMOSSPartner .divOverlay a.linkOverlay H2 {
+    color: #fff;
+}
+
+.divCompartiMOSSPartner .divOverlay a.linkOverlay H2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+/*********************************************************************************************************************************
+***** HOME
+*********************************************************************************************************************************/
+#SectionNumber #divPartners .dfwp-list
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+#SectionNumber #divPartners .dfwp-column 
+{
+    margin: 0;
+}
+
+#SectionNumber #divPartners .dfwp-list li
+{
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin: 0 5px;
+    margin-bottom: 10px;
+    padding: 0;
+    vertical-align: top;
+}
+
+
+#SectionNumber #divPartners .dfwp-list li .item
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*********************************************************************************************************************************
+***** GENERAL
+*********************************************************************************************************************************/
+.article-body 
+{
+    padding-top: 0 !important;
+}
+
+.article-body > header > h1
+{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.divClear
+{
+    clear: both;
+}
+
+/*********************************************************************************************************************************
+***** EDIT MODE
+*********************************************************************************************************************************/
+input.ms-long
+{
+    width: 900px;
+}
+
+/*********************************************************************************************************************************
+***** ANIMATIONS
+*********************************************************************************************************************************/
+#divLogo, #divHeader, #divHeader nav, nav#MainMenu ul li, #divSearch
+{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+ 
+/*********************************************************************************************************************************
+**********************************************************************************************************************************
+***** MEDIA QUERIES
+**********************************************************************************************************************************
+*********************************************************************************************************************************/
+
+    /*********************************************************************************************************************************
+    ***** 640 - 1024
+    *********************************************************************************************************************************/
+@media screen and (min-width: 640px) and (max-width: 1024px), screen and (max-device-width: 640px) and (max-device-width: 1024px) {
+
+    #divHeader {
+        background: #303030;
+        padding: 0 5px;
+        height: 155px;
+    }
+
+    #divHeader #divLogo {
+        background-position: left center; 
+        background-image: url('../Images/Layout/Logo210x60.png');
+        height: 75px;
+        margin-top: 40px;
+        width: 220px;
+    }
+
+    #divHeader #divHeaderContent {
+        margin-left: 220px;
+        min-width: 320px;
+    }
+
+    #divHeader nav#MainMenu ul li {
+        width: 80px;
+        font-size: 19px;
+    }
+
+    #divHeader nav#MainMenu ul li a {
+        height: 60px;
+    }
+
+    #divHeader nav#MainMenu ul li a[href="/inicio"] {background: url('../Images/Icons/Menu-Home-32.png') no-repeat 5px 5px;}
+    #divHeader nav#MainMenu ul li a[href="/revistas"] {background: url('../Images/Icons/Menu-Magazines-32.png') no-repeat 5px 5px;}
+    #divHeader nav#MainMenu ul li a[href="/autores"] {background: url('../Images/Icons/Menu-Autors-32.png') no-repeat 5px 5px;}
+    #divHeader nav#MainMenu ul li a[href="/editores"] {background: url('../Images/Icons/Menu-Editors-32.png') no-repeat 5px 5px;}
+    #divHeader nav#MainMenu ul li a[href="/la-revista"] {background: url('../Images/Icons/Menu-Magazine-32.png') no-repeat 5px 5px;}
+    #divHeader nav#MainMenu ul li a[href="/mentoring"] {background: url('../Images/Icons/Menu-Mentoring-32.png') no-repeat 5px 5px;}    
+    #divHeader nav#MainMenu ul li a[href="/guias"] {background: url('../Images/Icons/Menu-Guide-32.png') no-repeat 5px 5px;}    
+
+    #divHeader #divHeaderContent #divSearch input 
+    {
+        -webkit-transition: width 0.5s ease-in-out;
+        -moz-transition: width 0.5s ease-in-out;
+        -o-transition: width 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
+        width: 290px;
+        font-size: 13px;
+    }
+
+    #divBody #SectionArticle header #divMagazineNumber {
+        top: 139px;
+    }
+
+    #divBody #SectionArticle header #divMagazineNumber a {
+        font-size: 15px;
+    }
+
+}
+
+    /*********************************************************************************************************************************
+    ***** x < 640 
+    *********************************************************************************************************************************/
+@media screen and (max-width: 640px), screen and (max-device-width: 640px) {
+
+#divLogo, #divHeader, #divHeader nav, #divHeader nav ul, #divHeader nav#MainMenu ul li, #divHeader #divHeaderContent #divSearch
+{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+    h1 {
+       font-size: 33px; 
+    }
+
+
+    #divHeader {
+        background: #303030;
+        padding: 0 5px;
+        height: 110px;
+        padding-bottom: 20px;
+    }
+
+    #divHeader #divLogo {
+        float: none;
+        background-image: url('../Images/Layout/Logo210x60.png');
+        background-position: left center; 
+        height: 80px;
+    }
+
+    #divHeader #divHeaderContent {
+        margin-left: 0;
+        min-width: 320px;
+        text-align: left;
+    }
+
+    #divHeader #divHeaderContent #divSearch {
+        display: none;
+    }
+    
+    #divHeader nav {
+        display: block;
+        margin: auto;
+        height: 40px;
+    }
+
+    #divHeader nav ul {
+        margin: auto;
+        height: 40px;
+        /*text-align: right;*/
+    }
+
+    #divHeader nav#MainMenu ul li {
+        width: 75px;
+        font-size: 15px;
+        /*text-align: right;*/
+    }
+
+    #divHeader nav#MainMenu ul li a {
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        width: auto;
+        text-align: center;
+        background-image: none !important;
+    }
+
+    #divBody #SectionArticle header #divMagazineNumber {
+        top: auto;
+        position: inherit;
+        left: auto;
+        /*float: right;*/
+    }
+
+    #divBody #SectionArticle header #divMagazineNumber a {
+        font-size: 15px;
+    }
+}
+
+/**************************************************************************************************** 
+    MARKUP STYLE
+***********************************************************************************************/
+.articleCode {
+    background: rgba(243, 243, 243, 0.85) !important;
+}
+
+pre.ms-rteElement-preHTML
+{
+    -ms-name:"Code - HTML";
+    display:  block;
+    background: rgba(243, 243, 243, 0.85) !important;
+    margin: 0;
+    padding: 2px 0;
+    font-size:  11px;
+}
+
+pre.ms-rteElement-preVB
+{
+    -ms-name:"Code - VB";
+    display:  block;
+    background: rgba(243, 243, 243, 0.85) !important;
+    margin: 0;
+    padding: 2px 0;
+    font-size:  11px;
+}
+
+pre.ms-rteElement-preCSharp
+{
+    -ms-name:"Code - CSharp";
+    display:  block;
+    background: rgba(243, 243, 243, 0.85) !important;
+    margin: 0;
+    padding: 2px 0;
+    font-size:  11px;
+}
+
+pre.ms-rteElement-preJS
+{
+    -ms-name:"Code - JavaScript";
+    display:  block;
+    background: rgba(243, 243, 243, 0.85) !important;
+    margin: 0;
+    padding: 2px 0;
+    font-size:  11px;
+}
+
+pre.ms-rteElement-preCSS
+{
+    -ms-name:"Code - CSS";
+    display:  block;
+    background: rgba(243, 243, 243, 0.85) !important;
+    margin: 0;
+    padding: 2px 0;
+    font-size:  11px;
+}
+
+
+.divCompartiMOSSAuthor
+{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.divCompartiMOSSAuthor .divPicture
+{
+    /*position: absolute;*/
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.divCompartiMOSSAuthor .divPicture a {
+    display: block;
+    height: 250px;
+}
+
+.divCompartiMOSSAuthor .divPicture img {
+    width: 250px;
+    max-width: 250px;
+    height: 250px;
+    max-height: 250px;
+}
+
+.divCompartiMOSSAuthor a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.divCompartiMOSSAuthor .divOverlay 
+{
+    position: absolute;
+    z-index: 20;
+    top: 205px;
+    left: 0;
+    height: 250px;
+    width: 250px;
+    /*IE8<=*/background-color: #f90b39;
+    /*VIOLETA*//*background-color: rgba(146, 0, 145, 0.8);*/
+    /*GRIS*//*background-color: rgba(48, 48, 48, 0.8);*/
+    /*AZUL*//*background-color: rgba(0, 65, 145, 0.8);*/
+    /*ROJO*/background-color: rgba(249, 11, 57, 0.85);
+    color: #fff;
+    font-size: 11px;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay
+{
+    display: block;
+    height: 240px;
+    padding: 5px 10px;
+}
+
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay ,
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay H2 {
+    color: #fff;
+}
+
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay H2 {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+ul.cbs-List > li {
+    display: inline;
+}
+

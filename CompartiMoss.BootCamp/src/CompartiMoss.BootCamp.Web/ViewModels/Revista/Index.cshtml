@@ -1,0 +1,42 @@
+﻿@using System.Collections.Generic
+@using System.Threading.Tasks
+@model  System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<CompartiMoss.BootCamp.Web.Models.Revista>>
+<link rel="stylesheet" href="~/css/revista.css" />
+<div id="divBody">
+    <div id="divBodyMain">
+        <span id="DeltaPlaceHolderMain">
+            <div class="article article-body">
+                <header>
+                    <h1>Revistas</h1>
+                </header>
+                <div class="article-content">
+                    <div>
+                        <p>
+                            <span class="ms-rtStyle-Quote">Para ver el contenido, haga click en el número a leer</span>
+                        </p>
+                    </div>
+                    <ul class="cbs-List">
+                        @foreach (var revista in Model.Result)
+                        {
+                            <li>
+                                <div class="divCompartiMOSSMagazineNumber">
+                                    <div class="divPicture">
+                                        <a href="@Url.Action("Detail", new { Name=revista.Numero})">                                            
+                                                <img src="@revista.UrlPortada" class="cbs-largePictureImg" alt="@revista.Titulo">
+                                            </a>
+                                    </div>
+                                    <div class="divOverlay" style="top: 300px;">
+                                        <a href="@Url.Action("Detail", new { Name=revista.Numero})">
+                                            <h2 class="ms-noWrap"> @revista.Titulo</h2>
+                                            <div title=""></div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        }
+                    </ul>
+                 </div>                     
+            </div>
+        </span>
+    </div>
+</div>

@@ -1,0 +1,405 @@
+﻿#divMain  {
+    background: white   !important;
+}
+
+
+
+/*********************************************************************************************************************************
+***** CompartiMOSS - MagazineNumber
+*********************************************************************************************************************************/
+.divCompartiMOSSMagazineNumber
+{
+    position: relative;
+    display: inline-block;
+    width: 266px;
+    height: 350px;
+    overflow: hidden;
+    margin: 5px;
+/*    margin: 10px;*/
+/*    box-shadow: 0px 5px 10px #303030;*/
+}
+
+.divCompartiMOSSMagazineNumber .divPicture
+{
+    /*position: absolute;*/
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.divCompartiMOSSMagazineNumber .divPicture a {
+    display: block;
+    height: 350px;
+}
+
+.divCompartiMOSSMagazineNumber .divPicture img {
+    width: 266px;
+    max-width: 266px;
+    height: 350px;
+    max-height: 350px;
+}
+
+.divCompartiMOSSMagazineNumber a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.divCompartiMOSSMagazineNumber .divOverlay 
+{
+    position: absolute;
+    z-index: 20;
+    top: 300px;
+    left: 0;
+    height: 350px;
+    width: 266px;
+    /*IE8<=*/background-color: #f90b39;
+    /*VIOLETA*//*background-color: rgba(146, 0, 145, 0.8);*/
+    /*GRIS*//*background-color: rgba(48, 48, 48, 0.8);*/
+    /*AZUL*//*background-color: rgba(0, 65, 145, 0.8);*/
+    /*ROJO*/background-color: rgba(249, 11, 57, 0.85);
+    color: #fff;
+    font-size: 11px;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.divCompartiMOSSMagazineNumber .divOverlay a.linkOverlay
+{
+    display: block;
+    height: 340px;
+    padding: 5px 10px;
+}
+
+.divCompartiMOSSMagazineNumber .divOverlay a.linkOverlay ,
+.divCompartiMOSSMagazineNumber .divOverlay a.linkOverlay H2 {
+    color: #fff;
+}
+
+.divCompartiMOSSMagazineNumber .divOverlay a.linkOverlay H2 {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+/*********************************************************************************************************************************
+***** CompartiMOSS - Author
+*********************************************************************************************************************************/
+.divCompartiMOSSAuthor
+{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.divCompartiMOSSAuthor .divPicture
+{
+    /*position: absolute;*/
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.divCompartiMOSSAuthor .divPicture a {
+    display: block;
+    height: 250px;
+}
+
+.divCompartiMOSSAuthor .divPicture img {
+    width: 250px;
+    max-width: 250px;
+    height: 250px;
+    max-height: 250px;
+}
+
+.divCompartiMOSSAuthor a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.divCompartiMOSSAuthor .divOverlay 
+{
+    position: absolute;
+    z-index: 20;
+    top: 205px;
+    left: 0;
+    height: 250px;
+    width: 250px;
+    /*IE8<=*/background-color: #f90b39;
+    /*VIOLETA*//*background-color: rgba(146, 0, 145, 0.8);*/
+    /*GRIS*//*background-color: rgba(48, 48, 48, 0.8);*/
+    /*AZUL*//*background-color: rgba(0, 65, 145, 0.8);*/
+    /*ROJO*/background-color: rgba(249, 11, 57, 0.85);
+    color: #fff!important;
+    font-size: 11px;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay
+{
+    display: block;
+    height: 240px;
+    padding: 5px 10px;
+}
+
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay ,
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay H2 {
+    color: #fff !important;
+}
+
+.divCompartiMOSSAuthor .divOverlay a.linkOverlay H2 {
+    font-weight: 400;
+    font-size: 19px;
+}
+
+
+/*********************************************************************************************************************************
+***** CompartiMOSS - Article List Item
+*********************************************************************************************************************************/
+.divCompartiMOSSArticleListItem {
+    display: inline-block;
+    margin: 0;
+    /*padding-left: 20px;*/
+    font-size: 13px;
+    /*background: url('../Images/Icons/ListItemBullet.png') no-repeat 0px 0px;*/
+}
+
+.divCompartiMOSSArticleListItem .linkAuthor,
+.divCompartiMOSSArticleListItem .linkMagazine
+{
+    color: #f90b39;
+    font-style: italic;
+}
+
+.divCompartiMOSSArticleListItem .cbs-Detail {
+    padding-top: 0px;    
+}
+
+.divCompartiMOSSArticleListItem a {
+    color:  #303030;
+    text-decoration: none;
+}
+
+.divCompartiMOSSArticleListItem a:hover {
+    color: #f90b39;
+}
+
+/*********************************************************************************************************************************
+***** CompartiMOSS - Partner
+*********************************************************************************************************************************/
+.divCompartiMOSSPartner
+{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    background: #303030;
+}
+
+.divCompartiMOSSPartner .divPicture
+{
+    /*position: absolute;*/
+    z-index: 10;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 150px;
+}
+
+.divCompartiMOSSPartner .divPicture a {
+    display: inline-block;
+    height: 150px;
+    width: 250px;
+}
+
+.divCompartiMOSSPartner .divPicture img {
+    /*width: 200px;*/
+    max-width: 230px;
+    /*height: 120px;*/
+    max-height: 130px;
+    vertical-align: middle;
+}
+
+.divCompartiMOSSPartner a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.divCompartiMOSSPartner .divOverlay 
+{
+    position: absolute;
+    z-index: 20;
+    top: 140px;
+    left: 0;
+    height: 150px;
+    width: 250px;
+    /*IE8<=*/background-color: #f90b39;
+    /*VIOLETA*//*background-color: rgba(146, 0, 145, 0.8);*/
+    /*GRIS*//*background-color: rgba(48, 48, 48, 0.8);*/
+    /*AZUL*//*background-color: rgba(0, 65, 145, 0.8);*/
+    /*ROJO*/background-color: rgba(249, 11, 57, 0.85);
+    color: #fff;
+    font-size: 11px;    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.divCompartiMOSSPartner .divOverlay a.linkOverlay
+{
+    display: block;
+    height: 140px;
+    padding: 5px 10px;
+}
+
+.divCompartiMOSSPartner .divOverlay a.linkOverlay ,
+.divCompartiMOSSPartner .divOverlay a.linkOverlay H2 {
+    color: #fff;
+}
+
+.divCompartiMOSSPartner .divOverlay a.linkOverlay H2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/*********************************************************************************************************************************
+***** CompartiMOSS - DownloadPDf
+*********************************************************************************************************************************/
+.divDownloadLink
+{
+    position: relative;
+    width: 150px;
+    height: 60px;
+    overflow: hidden;
+    background: #303030;
+}
+
+
+.divDownloadLink .divPicture,
+.divDownloadLink .divText
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.divDownloadLink .divPicture
+{
+    z-index: 10;
+    top: 0;
+    left: 0;
+    line-height: 60px;
+    /*IE8<=*/background-color: #f90b39;
+    /*ROJO*/background-color: rgba(249, 11, 57, 1);
+}
+
+.divDownloadLink .divPicture a {
+    display: inline-block;
+    padding: 6px;
+    height: 48px;
+    width: 48px;
+}
+
+.divDownloadLink .divPicture img {
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.divDownloadLink a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.divDownloadLink .divText
+{
+    padding: 6px;
+    width: 78px;
+    height: 48px;
+    color: #fff;   
+}
+
+.divDownloadLink .divOverlay 
+{
+    position: absolute;
+    z-index: 20;
+    top: 55px;
+    left: 60px;
+    height: 55px;
+    width: 90px;
+    /*IE8<=*/background-color: #f90b39;
+    /*VIOLETA*//*background-color: rgba(146, 0, 145, 0.8);*/
+    /*GRIS*//*background-color: rgba(48, 48, 48, 0.8);*/
+    /*AZUL*//*background-color: rgba(0, 65, 145, 0.8);*/
+    /*ROJO*/background-color: rgba(249, 11, 57, 0.85);
+    color: #fff;
+    font-size: 11px;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.divDownloadLink .divOverlay a.linkOverlay
+{
+    display: block;
+    height: 70px;
+    padding: 5px 10px;
+}
+
+.divDownloadLink .divOverlay a.linkOverlay ,
+.divDownloadLink .divOverlay a.linkOverlay H2 {
+    color: #fff;
+}
+
+.divDownloadLink .divOverlay a.linkOverlay H2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/*********************************************************************************************************************************
+***** CompartiMOSS - Magazine article
+*********************************************************************************************************************************/
+.articleAward {
+	width: 350px;
+	height: 100px;
+	background: #303030 url('../images/Layout/BgAward.png') no-repeat 0px 0px;
+}
+
+.articleAward a {
+	text-decoration: none;
+}
+
+.articleAward .divAwardContent {
+	margin-left: 100px;
+	padding: 10px;
+	height: 70px;
+	overflow: hidden;
+}
+
+.articleAward .divAwardContent header {
+	color: #d7ca01;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+.articleAward .divAwardContent .divAwarded {
+	color: #f0f0f0;
+	font-size: 12px;
+}
+
+.articleAward .divAwardContent .divAuthor {
+	color: #f90b39;
+	font-size: 12px;
+	margin-top: 3px;
+}
+
+
+

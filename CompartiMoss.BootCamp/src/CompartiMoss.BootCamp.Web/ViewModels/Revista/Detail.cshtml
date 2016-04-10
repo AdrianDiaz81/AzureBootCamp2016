@@ -1,0 +1,41 @@
+﻿@using System.Threading.Tasks
+@model System.Threading.Tasks.Task<CompartiMoss.BootCamp.Web.Models.Revista>
+<link rel="stylesheet" href="~/css/revista.css" />
+<div id="divBody">
+    <div id="divBodyMain">
+        <section id="SectionNumber">
+            <header>
+                <h1>
+                    <div data-name="Campo de página: Título">
+                        <img src="/Images/Icons/OpenBook.png" alt="Ver número" title="Ver número">
+                        @Model.Result.Titulo
+                    </div>
+                </h1>
+            </header>
+            <div id="divLastNumberInfo">
+                <article id="divLastNumberImg">
+                    <div>
+                        <div class="ms-rtestate-field">
+                            <img src="@Model.Result.UrlPortada" style="BORDER:0 solid;" />
+                        </div>
+                    </div>
+                </article>
+                <article id="articleNumberContent">
+                    <div id="divMagazineAwards"></div>
+                    <div id="divIndex">
+                            @Component.Invoke("ArticulosByRevista", Model.Result.Numero)
+                    </div>
+                </article>
+            </div>
+            <article id="divEditorial">
+                <header>
+                    <h2>Editorial</h2>
+                </header>
+                <div>
+                    @Model.Result.Editorial
+                </div>
+            </article>
+            @Component.Invoke("Partner")
+        </section>
+    </div>
+</div>

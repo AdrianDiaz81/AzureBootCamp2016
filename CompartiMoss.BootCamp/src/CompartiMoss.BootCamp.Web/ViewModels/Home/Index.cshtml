@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div id="divBody" >
+    <div id="divBodyMain" data-name="ContentPlaceHolderMain" >
+        <span id="DeltaPlaceHolderMain">
+            <article id="articleHome">
+                <header>
+                    <h1>
+
+                        Bienvenidos al sitio de CompartiMOSS
+
+                    </h1>
+                    <h4 data-name="Campo de página: Comentarios">
+
+                        La revista digital de habla hispana en la que se escribe de SharePoint y todo lo relacionado con éste
+
+                    </h4>
+                </header>
+                @Component.Invoke("LastNumber")
+                @Component.Invoke("Partner")
+            </article>
+        </span>
+    </div>
+</div>

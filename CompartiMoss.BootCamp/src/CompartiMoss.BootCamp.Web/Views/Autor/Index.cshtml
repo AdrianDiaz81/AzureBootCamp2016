@@ -1,0 +1,25 @@
+﻿@using System.Collections.Generic
+@using System.Threading.Tasks
+@model System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<Autor>>
+<link rel="stylesheet" href="~/css/autordetail.css" />
+ <div id="divBodyMain">
+    <ul class="cbs-List">
+        @foreach (var autor in Model.Result)
+        {
+            <li>
+                <div class="divCompartiMOSSAuthor">
+                    <div class="divPicture">                        
+                       <a href="@Url.Action("Detail", new { Name=@autor.Name})">
+                          <img src="@autor.Image" class='cbs-largePictureImg'>
+                        </a>
+                    </div>
+                    <div class="divOverlay" style="top: 205px;">
+                        <a href="@Url.Action("Detail", new { Name=@autor.Name})">
+                            <h2 class="ms-noWrap"> @autor.Name</h2>
+                        </a>
+                    </div>
+                </div>
+            </li>
+        }
+    </ul>
+</div>

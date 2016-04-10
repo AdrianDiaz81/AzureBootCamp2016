@@ -1,0 +1,99 @@
+﻿@using System.Threading.Tasks
+@model System.Threading.Tasks.Task<CompartiMoss.BootCamp.Web.Models.Autor>
+<link rel="stylesheet" href="~/css/autordetail.css" />
+<div id="divBody" style="height:auto">
+    <div id="divBodyDomain">
+        <section id="SectionAuthor">
+            <article>
+                <div id="divAuthorAside">
+                    <div id="divProfilePhoto">
+                        <div style="display:none">
+                            Imagen de la página
+                        </div>
+                        <div class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl00_label">
+                            <div class="ms-rtestate-field">
+                                <img alt="Adrián Díaz" src="@Model.Result.Image" style="BORDER:0 solid;">
+                            </div>
+                        </div>
+
+                    </div>
+                    <section id="divSocialInfo">
+                        <article id="divTwitter">
+                            <a class="linkTwitter" href="http://www.twitter.com/@Model.Result.Twitter">
+                                Twitter
+                            </a>
+                            <div class="divSocialOverlay" style="top: 70px;">
+                                <a class="linkTwitter" href="http://www.twitter.com/@Model.Result.Twitter">
+                                    <span id="spanTwitter">
+                                        @Model.Result.Twitter
+                                    </span>
+                                </a>
+                            </div>
+                        </article>
+                        <article id="divBlog">
+
+
+                            <div style="display:none">
+                                Blog
+                            </div>
+                            <div class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl02_label">
+                                <div class="ms-rtestate-field">
+                                    <a href="@Model.Result.Blog" target="_blank" title="@Model.Result.NameBlog">@Model.Result.NameBlog</a>
+                                </div>
+                            </div>
+
+                            <div class="divSocialOverlay">
+
+
+                                <div style="display:none">
+                                    Blog
+                                </div>
+                                <div class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl03_label">
+                                    <div class="ms-rtestate-field">
+                                        <a href="@Model.Result.Blog" target="_blank" title="@Model.Result.NameBlog">@Model.Result.NameBlog</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </article>
+                    </section>
+                </div>
+                <header>
+                    <h1 data-name="Campo de página: Título">
+
+
+                        @Model.Result.Name
+
+                    </h1>
+                    <div id="divJobTitle">
+
+
+                        @Model.Result.JobTittle
+
+                    </div>
+                </header>
+                <div id="divAuthorData">
+                    <div id="divBio">
+
+
+                        <div style="display:none">Contenido de la página</div>
+                        <div class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl06_label">
+                            @Model.Result.Description
+                        </div>
+
+                    </div>
+                    @Component.Invoke("ArticulosByAutor",Model.Result.Name)
+                </div>
+                <div data-name="EditModePanelShowInEdit">
+
+
+
+
+                </div>                
+                <div class="divClear">
+                </div>
+            </article>
+
+        </section>
+    </div>
+</div>
