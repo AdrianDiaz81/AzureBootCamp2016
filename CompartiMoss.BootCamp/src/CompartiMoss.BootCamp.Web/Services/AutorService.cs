@@ -9,7 +9,7 @@ namespace CompartiMoss.BootCamp.Web.Services
 {
     public class AutorService : IAutor
     {
-        private IEnumerable<Autor> _collection;
+        private IEnumerable<Autor> _collection= new List<Autor>();
         private bool canRedis ;
         private string urlRedis;
         private IConfigurationRoot configuration;

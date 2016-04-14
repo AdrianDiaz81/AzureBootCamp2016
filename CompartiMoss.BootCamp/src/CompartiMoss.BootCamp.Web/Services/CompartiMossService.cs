@@ -35,7 +35,7 @@ namespace CompartiMoss.BootCamp.Web.Services
 
                 return JsonConvert.DeserializeObject<List<Revista>>(response);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 throw new Exception("Se ha producido un error en la carga de los números");
             }
