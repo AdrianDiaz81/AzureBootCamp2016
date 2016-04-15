@@ -11,9 +11,9 @@ namespace CompartiMoss.BootCamp.Web.Services
     public class RevistaService : IRevista
     {
         private IEnumerable<Revista> _repository;
-        private IConfigurationRoot configuration;
-        private bool canRedis;
-        private string urlRedis;
+        private readonly IConfigurationRoot configuration;
+        private readonly bool canRedis;
+        private readonly string urlRedis;
         public RevistaService()
         {
             var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json");
