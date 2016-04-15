@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2D5A52A0-EFF6-4913-BE18-CFB49D1EE8F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{24E89B9C-D004-46AB-9625-7A2D1E49F74D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CompartiMoss.BootCamp.Web", "src\CompartiMoss.BootCamp.Web\CompartiMoss.BootCamp.Web.xproj", "{374AFC67-6137-4920-BF62-00911FD0EA08}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CompartiMoss.BootCamp.Articulo", "src\CompartiMoss.BootCamp.Articulo\CompartiMoss.BootCamp.Articulo.xproj", "{AE8E69AE-F040-4256-ABEB-7EDAE1658A80}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CompartiMoss.BootCamp.Autor", "src\CompartiMoss.BootCamp.Autor\CompartiMoss.BootCamp.Autor.xproj", "{DDBA7CCC-36FE-4EB9-BA9C-B78DACED92EE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CompartiMoss.BootCamp.Revista", "src\CompartiMoss.BootCamp.Revista\CompartiMoss.BootCamp.Revista.xproj", "{0AC8955E-DC9F-4DF7-A8AB-E297F18B1D68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{374AFC67-6137-4920-BF62-00911FD0EA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374AFC67-6137-4920-BF62-00911FD0EA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374AFC67-6137-4920-BF62-00911FD0EA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374AFC67-6137-4920-BF62-00911FD0EA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8E69AE-F040-4256-ABEB-7EDAE1658A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8E69AE-F040-4256-ABEB-7EDAE1658A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8E69AE-F040-4256-ABEB-7EDAE1658A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8E69AE-F040-4256-ABEB-7EDAE1658A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDBA7CCC-36FE-4EB9-BA9C-B78DACED92EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBA7CCC-36FE-4EB9-BA9C-B78DACED92EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBA7CCC-36FE-4EB9-BA9C-B78DACED92EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBA7CCC-36FE-4EB9-BA9C-B78DACED92EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC8955E-DC9F-4DF7-A8AB-E297F18B1D68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC8955E-DC9F-4DF7-A8AB-E297F18B1D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC8955E-DC9F-4DF7-A8AB-E297F18B1D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC8955E-DC9F-4DF7-A8AB-E297F18B1D68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{374AFC67-6137-4920-BF62-00911FD0EA08} = {2D5A52A0-EFF6-4913-BE18-CFB49D1EE8F6}
+		{AE8E69AE-F040-4256-ABEB-7EDAE1658A80} = {2D5A52A0-EFF6-4913-BE18-CFB49D1EE8F6}
+		{DDBA7CCC-36FE-4EB9-BA9C-B78DACED92EE} = {2D5A52A0-EFF6-4913-BE18-CFB49D1EE8F6}
+		{0AC8955E-DC9F-4DF7-A8AB-E297F18B1D68} = {2D5A52A0-EFF6-4913-BE18-CFB49D1EE8F6}
+	EndGlobalSection
+EndGlobal
